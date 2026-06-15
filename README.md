@@ -21,6 +21,7 @@ The code in this repository is designed to show research style, not production e
 - `src/nordstar_public/retail_demo.py` shows a high-level retail activity index on synthetic inputs.
 - `src/nordstar_public/validation.py` shows chronological walk-forward split helpers.
 - `examples/run_public_demo.py` runs the public demo end to end.
+- `docs/PERFORMANCE_SNAPSHOT.md` summarizes selected actual research and paper-trading evidence.
 
 Run:
 
@@ -35,6 +36,7 @@ python examples/run_public_demo.py
 - non-sensitive case study summaries
 - public-safe methodology comments
 - illustrative demo code using synthetic inputs
+- aggregate performance snapshots from actual research runs
 
 ## What Will Not Be Shared
 
@@ -44,6 +46,7 @@ python examples/run_public_demo.py
 - credentials, API keys, or infrastructure details
 - client-specific locations, assets, or outputs
 - production model weights, features, or database schemas
+- raw trade logs or unreleased signal feeds
 
 ## Disclaimer
 
