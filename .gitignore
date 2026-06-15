@@ -1,10 +1,13 @@
-# Never publish secrets, data, code, models, or generated artifacts from the private workspace.
+# Never publish secrets, data, models, or generated artifacts from the private workspace.
 .env
 .env.*
 *.key
 *.pem
 *secret*
 *credentials*
+
+__pycache__/
+*.pyc
 
 data/
 cache/
@@ -27,5 +30,10 @@ models/
 *.jpg
 *.jpeg
 *.png
-*.py
 *.sql
+
+# Keep private/internal code out of this public teaser repo by convention.
+private/
+internal/
+production/
+pipelines/

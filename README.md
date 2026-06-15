@@ -1,8 +1,10 @@
 # Nordstar Research
 
-Research notes on commodity prediction, momentum alpha signals, and retail real estate intelligence.
+Public research notes and demo code from Nordstar.
 
-This repository is a public teaser for selected research communication. The underlying data pipelines, model code, signal database, satellite workflows, and production infrastructure are private.
+Nordstar works on commodity prediction, momentum alpha signals, and retail real estate intelligence using alternative data, geospatial signals, and machine learning.
+
+This repository is intentionally selective. It contains public-safe notes and small illustrative code examples. The underlying data pipelines, signal database, satellite workflows, production models, and proprietary research edge remain private.
 
 ## Focus Areas
 
@@ -11,12 +13,28 @@ This repository is a public teaser for selected research communication. The unde
 - Satellite, geospatial, and machine learning signals
 - Walk-forward tested research and paper-trading diagnostics
 
-## What Will Be Shared
+## Public Demo Code
+
+The code in this repository is designed to show research style, not production edge.
+
+- `src/nordstar_public/momentum_demo.py` shows a generic momentum ranking pattern on synthetic prices.
+- `src/nordstar_public/retail_demo.py` shows a high-level retail activity index on synthetic inputs.
+- `src/nordstar_public/validation.py` shows chronological walk-forward split helpers.
+- `examples/run_public_demo.py` runs the public demo end to end.
+
+Run:
+
+```bash
+python examples/run_public_demo.py
+```
+
+## What May Be Shared
 
 - short research notes
 - selected high-level charts
 - non-sensitive case study summaries
 - public-safe methodology comments
+- illustrative demo code using synthetic inputs
 
 ## What Will Not Be Shared
 
@@ -25,6 +43,7 @@ This repository is a public teaser for selected research communication. The unde
 - raw datasets or database exports
 - credentials, API keys, or infrastructure details
 - client-specific locations, assets, or outputs
+- production model weights, features, or database schemas
 
 ## Disclaimer
 
